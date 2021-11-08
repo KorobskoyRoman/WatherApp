@@ -20,6 +20,7 @@
 		9C78968727399C8C00BE9C99 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78968627399C8B00BE9C99 /* NetworkManager.swift */; };
 		9C78968927399E0800BE9C99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78968827399E0800BE9C99 /* Constants.swift */; };
 		9C78968B2739AB7900BE9C99 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78968A2739AB7900BE9C99 /* CurrentWeatherData.swift */; };
+		9C78968D2739B1B300BE9C99 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78968C2739B1B300BE9C99 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9C78968627399C8B00BE9C99 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9C78968827399E0800BE9C99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9C78968A2739AB7900BE9C99 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		9C78968C2739B1B300BE9C99 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				9C78968627399C8B00BE9C99 /* NetworkManager.swift */,
+				9C78968C2739B1B300BE9C99 /* CurrentWeather.swift */,
 				9C78968A2739AB7900BE9C99 /* CurrentWeatherData.swift */,
 			);
 			path = Models;
@@ -312,6 +315,7 @@
 			files = (
 				9C789652273983DA00BE9C99 /* ViewController.swift in Sources */,
 				9C78968527398C9800BE9C99 /* ViewController+AlertController.swift in Sources */,
+				9C78968D2739B1B300BE9C99 /* CurrentWeather.swift in Sources */,
 				9C78968727399C8C00BE9C99 /* NetworkManager.swift in Sources */,
 				9C78968B2739AB7900BE9C99 /* CurrentWeatherData.swift in Sources */,
 				9C78964E273983DA00BE9C99 /* AppDelegate.swift in Sources */,
